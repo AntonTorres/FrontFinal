@@ -1,0 +1,91 @@
+.register {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdeaa7;
+  }
+  
+  .cardR {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+      padding: 50px;
+    overflow: hidden;
+  }
+  
+  .leftReg {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border-radius: 10px;
+    background: linear-gradient(
+        rgba(253, 234, 170, 0.274),
+        rgba(253, 234, 170, 0.245)
+      ),
+      url("https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+      gap: 30px;
+      color: #D0A332;
+      flex-basis: 50%;
+      box-sizing: border-box;
+  }
+
+  .rightR {
+    flex: 1;
+      font-size: 30px;
+      padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: whitesmoke;
+    justify-content: center;
+    border-radius: 10px;
+    flex-basis: 50%;
+      box-sizing: border-box;
+      align-items: center;
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+      border-radius: 0%;
+  }
+
+
+
+   .right input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+  }
+
+  fieldset {
+    border: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+  
+  button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(208, 163, 50);
+    color: black;
+      border-color: black;
+  }
+  
+  h1 {
+    font-size:80px }
+
+    h2{
+      color: rgb(208, 163, 50);
+        text-align: center;
+    }

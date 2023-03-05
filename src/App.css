@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilo para el encabezado */
+header {
+  background-color: #D0A332;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Estilo para el logotipo en el encabezado */
+header h1 {
+  font-size: 24px;
+}
+
+/* Estilo para la navegación en el encabezado */
+nav {
+  display: flex;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para los mensajes de error en el formulario */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Estilo para los campos del formulario */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Estilo para el botón de enviar del formulario */
+form input[type="submit"] {
+  background-color: #D0A332;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para las páginas de error */
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-page h2 {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+.error-page p {
+  font-size: 24px;
+  color: #999;
+}
+
+article {
+  text-align: center;
+}
+
+.H1 {
+  text-align: center;
+  font-size: 80px;
+  background-color: rgb(208, 163, 50);
+}
+
+
+.crb {
+  justify-content: center;
+  margin: 100px;
+  text-align: center;
+}
+
+.crh {
+  font-size: 25px;
+  color: black;
+  background-color: rgb(208, 163, 50);
+  border-radius: 10px;
+
+}

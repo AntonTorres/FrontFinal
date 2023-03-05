@@ -1,0 +1,116 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdeaa7;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px;
+    overflow: hidden;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border-radius: 10px;
+    background: linear-gradient(
+        rgba(253, 234, 170, 0.274),
+        rgba(253, 234, 170, 0.245)
+      ),
+      url("https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    gap: 30px;
+    color: #D0A332;
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+                                                                                                                                                                                                                                                                a {
+                                                                                                                                                                                                                                                                  color: #D0A332;
+                                                                                                                                                                                                                                                                }
+  button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(208, 163, 50);
+    color: black;
+      border-color: black;
+  }
+  
+  h1 {
+    font-size: 100px;
+  }
+  
+  .right {
+    flex: 1;
+    font-size: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: whitesmoke;
+    justify-content: center;
+    border-radius: 10px;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  .right input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: rgb(208, 163, 50);
+   
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 0%;
+  }
+  
+  #email-input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(208, 163, 50);
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background: #fdeaa7;
+  }
+fieldset {
+  border: none;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
